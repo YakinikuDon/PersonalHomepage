@@ -35,7 +35,7 @@
     "btn_idle": "Start AI Evaluation",
     "btn_loading": "AI is analyzing the JD...",
     "btn_error": "Evaluation failed, try again",
-    "warning_demo": "Running in Demo Mode (No API Key configured). The evaluation is simulated.",
+    "warning_demo": "Running in Demo Mode. The evaluation is simulated.",
     "overall_score": "Overall Match Index",
     "breakdown": "6-Dimensional Match Breakdown",
     "report_title": "AI Assessment & Recommendations",

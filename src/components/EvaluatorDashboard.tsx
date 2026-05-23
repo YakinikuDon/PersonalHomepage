@@ -604,7 +604,7 @@ function getInitialMockData(lang: Language): EvaluationResult {
     recommendationLetter: isZh
       ? `### 🌟 董一舟 的综合推荐诊断书
 
-> **💡 提示**：请在下方输入框中粘贴您感兴趣的职位描述 (JD)，AI 将实时评估您的匹配度并给出专业诊断报告。
+> **💡 提示**：请在上方输入框中粘贴您感兴趣的职位描述 (JD)。当前显示的内容为预设的评估示例，当您输入真实 JD 后，AI 将实时为您生成专属的专业诊断报告。
 
 #### ✅ 核心匹配优势
 1. **多重硬核专业资格**：持有 **PMP® 项目管理认证**、**焊接管理技术者 1 级**及 **JSNDI 非破坏性检测 (PT, MT, RT) 二级认证**，符合严苛的特种设备与重工业合规标准。
@@ -615,7 +615,7 @@ function getInitialMockData(lang: Language): EvaluationResult {
 * **工作地点与海外派遣**：候选人目前居住于日本神奈川，支持川崎/横滨/东京办公、海外工程现场长期驻场，以及灵活的国际混合出差机制。`      : isJa
       ? `### 🌟 董一舟 の総合推薦診断書
 
-> **💡 ヒント**：下の入力ボックスに興味のある職務記述書 (JD) を貼り付けてください。AI がリアルタイムで適合度を評価し、専門的な診断レポートを提供します。
+> **💡 ヒント**：上の入力ボックスに興味のある職務記述書 (JD) を貼り付けてください。現在表示されている内容は事前設定された評価例です。実際の JD を入力すると、AI がリアルタイムで専用の診断レポートを生成します。
 
 #### ✅ 主なマッチング強み
 1. **日米欧国際規格の強力な資格群**：**PMP®**、**溶接管理技術者1級**、**JSNDI 非破壊試験技術者 Level 2 (PT, MT, RT)**をすべて保有。高度なプラント設計・製造・検査基準に完全合致。
@@ -626,7 +626,7 @@ function getInitialMockData(lang: Language): EvaluationResult {
 * **勤務地・海外駐在**：現在は神奈川県（永住者）在住であり、川崎/横浜/東京、またはグローバル海外プラント（中東・東南アジアなど）の駐在やハイブリッド契約に対応可能です。`
       : `### 🌟 Dong Yizhou's Comprehensive Evaluation Report
 
-> **💡 Tip**: Please paste a Job Description (JD) you are interested in below. The AI will evaluate your match rate in real-time and provide a professional diagnosis report.
+> **💡 Tip**: Please paste a Job Description (JD) you are interested in above. The current content is a pre-set evaluation example. Once you input a real JD, the AI will generate a personalized professional diagnosis report for you in real-time.
 
 #### ✅ Core Strengths
 1. **Rigorous Professional Credentials**: Holds **PMP®**, **Welding Engineer Grade 1**, and **JSNDI Non-Destructive Testing (PT, MT, RT) Level 2** certifications, matching strict industrial compliance parameters.

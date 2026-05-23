@@ -35,7 +35,7 @@
     "btn_idle": "开始 AI 智能评估",
     "btn_loading": "AI 正在严密深度评估中...",
     "btn_error": "评估出错，请重试",
-    "warning_demo": "当前处于演示模式（未配置 API Key），评估结果为智能模拟生成。",
+    "warning_demo": "当前处于演示模式，评估结果为智能模拟生成。",
     "overall_score": "综合契合指数",
     "breakdown": "六大维度匹配度细分",
     "report_title": "AI 深度评估诊断书",
