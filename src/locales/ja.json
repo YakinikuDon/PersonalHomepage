@@ -1,0 +1,53 @@
+{
+  "nav": {
+    "about": "プロフィール",
+    "experience": "職歴",
+    "projects": "開発実績",
+    "evaluator": "AI採用評価器"
+  },
+  "hero": {
+    "hello": "こんにちは、私は",
+    "cta_email": "メール送信",
+    "cta_github": "GitHubページ",
+    "cta_bilibili": "Bilibiliスペース",
+    "tech_stack": "コア技術",
+    "years": "13年以上のグローバル経験",
+    "skill_certs": "保有資格・免許",
+    "skill_it": "ITスキル・DX",
+    "skill_domains": "コア実務領域"
+  },
+  "experience": {
+    "title": "キャリアタイムラインと職歴",
+    "subtitle": "大型プラント機械エンジニアリング、品質管理（QC/QA）、及び国際EPCプロジェクトマネジメントを専門とする",
+    "highlights_title": "主な成果と技術貢献"
+  },
+  "projects": {
+    "title": "主なオープンソースプロジェクト",
+    "subtitle": "優れたコード品質と最高水準のユーザー体験を追求する革新的な実践",
+    "github_link": "ソースコード",
+    "demo_link": "デモを体験",
+    "tech_used": "使用技術"
+  },
+  "evaluator": {
+    "title": "AI採用ポジション評価器",
+    "subtitle": "リクルーター / 人事担当者様向け：求人票 (JD) を貼り付けると、大規模言語モデルが多次元的にマッチ度を客観分析します",
+    "placeholder": "ここに求人票 (Job Description, JD) を貼り付けてください... 例：シニアフロントエンドエンジニア募集、React/TypeScriptに精通、上海ハイブリッドまたはフルリモート...",
+    "btn_idle": "AIスマート評価を開始",
+    "btn_loading": "AIが詳細評価を行っています...",
+    "btn_error": "評価に失敗しました。再試行してください",
+    "warning_demo": "現在デモモードです（APIキーが未設定）。評価結果はスマートシミュレーションによって生成されています。",
+    "overall_score": "総合マッチング指数",
+    "breakdown": "6つの次元における適合度分析",
+    "report_title": "AI詳細評価診断書",
+    "error_empty": "求人票を入力してください！",
+    "labels": {
+      "salaryMatch": "給与適合",
+      "locationMatch": "勤務地適合",
+      "skillMatch": "スキル適合",
+      "experienceMatch": "経験適合",
+      "industryMatch": "業界適合",
+      "languageMatch": "言語適合",
+      "overallScore": "総合指数"
+    }
+  }
+}

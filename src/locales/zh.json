@@ -1,0 +1,53 @@
+{
+  "nav": {
+    "about": "关于我",
+    "experience": "工作经历",
+    "projects": "开源项目",
+    "evaluator": "AI 招聘评估器"
+  },
+  "hero": {
+    "hello": "您好，我是",
+    "cta_email": "邮件联系",
+    "cta_github": "GitHub主页",
+    "cta_bilibili": "B站主页",
+    "tech_stack": "核心技术",
+    "years": "13+ 年经验",
+    "skill_certs": "专业资格证",
+    "skill_it": "IT能力",
+    "skill_domains": "核心业务领域"
+  },
+  "experience": {
+    "title": "职业生涯与工作经历",
+    "subtitle": "深耕重型设备机械工程、品质管理 (QC/QA) 与国际 EPC 项目管理",
+    "highlights_title": "核心业绩与技术贡献"
+  },
+  "projects": {
+    "title": "精选开源项目",
+    "subtitle": "追求卓越代码质量与优质用户体验的创新实践",
+    "github_link": "查看源码",
+    "demo_link": "在线体验",
+    "tech_used": "使用技术"
+  },
+  "evaluator": {
+    "title": "AI 职位匹配评估器",
+    "subtitle": "猎头 / HR 专属：粘贴您的职位描述 (JD)，由大语言模型多维度客观分析匹配度",
+    "placeholder": "在此处粘贴您要招聘的职位描述 (Job Description, JD)... 例如：招聘资深前端开发，熟练使用 React/TypeScript，上海现场或远程协作...",
+    "btn_idle": "开始 AI 智能评估",
+    "btn_loading": "AI 正在严密深度评估中...",
+    "btn_error": "评估出错，请重试",
+    "warning_demo": "当前处于演示模式（未配置 API Key），评估结果为智能模拟生成。",
+    "overall_score": "综合契合指数",
+    "breakdown": "六大维度匹配度细分",
+    "report_title": "AI 深度评估诊断书",
+    "error_empty": "请先粘贴职位描述内容！",
+    "labels": {
+      "salaryMatch": "薪资匹配",
+      "locationMatch": "位置匹配",
+      "skillMatch": "能力匹配",
+      "experienceMatch": "经历匹配",
+      "industryMatch": "行业契合",
+      "languageMatch": "语言匹配",
+      "overallScore": "综合指数"
+    }
+  }
+}
