@@ -278,7 +278,7 @@ export default function EvaluatorDashboard({ currentLang }: EvaluatorDashboardPr
                   {t("evaluator.warning_demo")}
                 </p>
                 <p className="text-[10px] text-gray-500 mt-1">
-                  Configure your private key inside `.env.local` to trigger live endpoints.
+                  {t("evaluator.warning_sub")}
                 </p>
               </div>
             </div>

@@ -344,9 +344,9 @@ function getMockEvaluation(jd: string, lang: string) {
       }
     },
     recommendationLetter: isZh
-      ? `### 🌟 董一舟 的精选推荐诊断报告 (Demo Mode)
+      ? `### 🌟 董一舟 的精选推荐诊断报告 (示例展示)
 
-> **⚠️ 提示**：此报告为**演示模式生成**。当前未检测到 \`.env.local\` 中配置的 \`LLM_API_KEY\`。
+> **💡 提示**：当前展示为**示例诊断书**。在上方输入框粘贴具体的 JD，即可开启专属的实时 AI 诊断。
 
 #### ✅ 核心匹配与转型分析
 1. **重工 Project Management 实力**：具备 13 年以上的大型国际 EPC（日挥）和流体机械（荏原）项目实战经验，抗索赔抗压能力（沙特 30 亿日元挽回）强悍，完全胜任中大型重工 PM 统筹。
@@ -357,9 +357,9 @@ function getMockEvaluation(jd: string, lang: string) {
 * **传统 QC/QA 岗位规避**：若本岗位属于仅负责检验、探伤见证、ITP 审批的传统专职品质管理岗位，即使属于日挥或同级大厂，候选人也不予考虑。
 * **日本国内工地长出差规避**：候选人偏好高津贴的**海外长期派驻**（单次 2-3 个月，年出差 50% 均可）；但倾向于少去日本国内工地长期出差。`
       : isJa
-      ? `### 🌟 董一舟 の総合推薦診断書 (Demo Mode)
+      ? `### 🌟 董一舟 の総合推薦診断書 (サンプル表示)
 
-> **⚠️ 注意**：このレポートは**デモモードで生成**されました。
+> **💡 注意**：現在表示されているのは**サンプル診断書**です。上の入力欄に対象の求人票（JD）を貼り付けると、リアルタイムのAI分析が実行されます。
 
 #### ✅ 強みとキャリア適合度
 1. **重工業系PMとしての即戦力**：日揮グローバルおよび荏原エリオットにて13年以上の巨大EPCプロジェクト工程管理に従事。約30億円規模の索賠クレームをアラムコから回収した圧倒的プロジェクトマネジメント（PM）推進力。
@@ -369,9 +369,9 @@ function getMockEvaluation(jd: string, lang: string) {
 #### ⚠️ 懸念点・見送り基準
 * **純粋な品質管理職務**：検査官、溶接仕様審査、サプライヤー監査など、従来の品質管理専任ロール（QC/QA）はお見送り対象となります。
 * **国内現場出張の制限**：海外プラント現地への出張（手当付き、年間50%まで）は歓迎しますが、手当の薄い日本国内建設现场への頻繁な長期出張は極力回避したい意向があります。`
-      : `### 🌟 Dong Yizhou's Expert Evaluation (Demo Mode)
+      : `### 🌟 Dong Yizhou's Expert Evaluation (Sample Showcase)
 
-> **⚠️ Notice**: This report is generated in **Demo Mode**.
+> **💡 Note**: This is a **sample evaluation report**. Paste a target Job Description in the input field above to trigger custom real-time AI analysis.
 
 #### ✅ Core Match & Career Evolution
 1. **Rigorous Industrial PM background**: 13+ years global EPC (JGC) and turbomachinery (Ebara) delivery expertise, capable of handling complex heavy industrial Project Management and massive claim negotiations.

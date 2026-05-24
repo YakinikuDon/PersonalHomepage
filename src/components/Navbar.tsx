@@ -24,7 +24,7 @@ export default function Navbar({ currentLang, onLangChange }: NavbarProps) {
         {/* Logo / Name */}
         <a href="#hero" className="flex items-center gap-2 group">
           <span className="text-xl font-bold tracking-tight text-gradient-purple bg-gradient-to-r">
-            Dongyizhou.dev
+            yakinikudon.top
           </span>
           <span className="hidden sm:inline-block px-2 py-0.5 text-[10px] font-semibold tracking-wide uppercase bg-indigo-500/10 text-indigo-300 rounded-full border border-indigo-500/20">
             {t("hero.years")}
