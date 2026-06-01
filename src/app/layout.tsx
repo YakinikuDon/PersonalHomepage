@@ -14,16 +14,16 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   metadataBase: new URL("https://www.yakinikudon.top"),
-  title: "Dongyizhou | Senior Full-Stack Engineer & AI Agent Developer",
-  description: "Explore Dongyizhou's senior engineering portfolio. Features an interactive career timeline, showcase projects, and a secure LLM recruiter match score calculator.",
+  title: "Dong Yizhou (董一舟) | Project Management & DX Expert",
+  description: "Dong Yizhou (董一舟) - Project Management & Digital Transformation (DX) Expert at JGC Global / 日挥全球. PMP certified professional optimizing engineering operations through Generative AI & automation.",
   alternates: {
     canonical: "https://www.yakinikudon.top",
   },
   openGraph: {
-    title: "Dongyizhou | Senior Full-Stack Engineer & AI Agent Developer",
-    description: "Explore Dongyizhou's senior engineering portfolio. Features an interactive career timeline, showcase projects, and a secure LLM recruiter match score calculator.",
+    title: "Dong Yizhou (董一舟) | Project Management & DX Expert",
+    description: "Dong Yizhou (董一舟) - Project Management & Digital Transformation (DX) Expert at JGC Global / 日挥全球. PMP certified professional optimizing engineering operations through Generative AI & automation.",
     url: "https://www.yakinikudon.top",
-    siteName: "Dongyizhou Portfolio",
+    siteName: "Dong Yizhou Portfolio",
     locale: "zh_CN",
     type: "website",
     images: [
@@ -31,14 +31,14 @@ export const metadata: Metadata = {
         url: "/avatar_luffy.jpg",
         width: 800,
         height: 800,
-        alt: "Dongyizhou Profile Picture",
+        alt: "Dong Yizhou Profile Picture",
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "Dongyizhou | Senior Full-Stack Engineer & AI Agent Developer",
-    description: "Explore Dongyizhou's senior engineering portfolio. Features an interactive career timeline, showcase projects, and a secure LLM recruiter match score calculator.",
+    title: "Dong Yizhou (董一舟) | Project Management & DX Expert",
+    description: "Dong Yizhou (董一舟) - Project Management & Digital Transformation (DX) Expert at JGC Global / 日挥全球. PMP certified professional optimizing engineering operations through Generative AI & automation.",
     images: ["/avatar_luffy.jpg"],
   },
   robots: {
