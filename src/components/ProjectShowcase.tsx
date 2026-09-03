@@ -25,6 +25,7 @@ export default function ProjectShowcase({ currentLang }: ProjectShowcaseProps) {
 
       <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
         {PROFILE.projects.map((proj, idx) => {
+          const name = typeof proj.name === "string" ? proj.name : (proj.name[currentLang] || proj.name.en);
           const description = proj.description[currentLang] || proj.description.en;
 
           return (
@@ -57,7 +58,7 @@ export default function ProjectShowcase({ currentLang }: ProjectShowcaseProps) {
                       </svg>
                     </div>
                     <h3 className="text-xl font-bold text-white group-hover:text-indigo-300 transition-colors duration-300">
-                      {proj.name}
+                      {name}
                     </h3>
                   </div>
                 </div>

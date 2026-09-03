@@ -225,13 +225,17 @@ export default function HomeClient({ lang }: HomeClientProps) {
                   ))}
                 </div>
                 
-                {/* Bilingual indicator */}
+                {/* Language Proficiency indicator */}
                 <div className="pt-2.5 border-t border-white/5">
                   <span className="text-[10px] md:text-xs font-bold uppercase tracking-wider text-gray-500 block mb-1.5">
-                    Language Proficiency
+                    {lang === "ja" ? "語学力 (Language Proficiency)" : lang === "zh" ? "语言能力 (Language Proficiency)" : "Language Proficiency"}
                   </span>
                   <p className="text-sm text-gray-300 leading-relaxed">
-                    ZH: {PROFILE.skills.languages.zh} • EN: {PROFILE.skills.languages.en} • JA: {PROFILE.skills.languages.ja}
+                    {lang === "ja"
+                      ? "中国語: ネイティブ (Native) • 英語: ビジネス流暢 (TOEIC 945) • 日本語: ビジネス流暢 (JLPT N1 永住)"
+                      : lang === "zh"
+                      ? "中文: 母语 (Native) • 英语: 流利 (Fluent, TOEIC 945) • 日语: 流利 (Fluent, JLPT N1 永住)"
+                      : "ZH: Native • EN: Business Fluent (TOEIC 945) • JA: Business Fluent (JLPT N1 / Permanent Resident)"}
                   </p>
                 </div>
               </div>

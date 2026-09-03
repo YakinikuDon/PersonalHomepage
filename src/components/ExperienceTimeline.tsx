@@ -25,6 +25,8 @@ export default function ExperienceTimeline({ currentLang }: ExperienceTimelinePr
 
       <div className="timeline-container relative">
         {PROFILE.experiences.map((exp, idx) => {
+          const role = typeof exp.role === "string" ? exp.role : (exp.role[currentLang] || exp.role.en);
+          const period = typeof exp.period === "string" ? exp.period : (exp.period[currentLang] || exp.period.en);
           const description = exp.description[currentLang] || exp.description.en;
           const highlights = exp.highlights?.[currentLang] || exp.highlights?.en || [];
 
@@ -43,14 +45,14 @@ export default function ExperienceTimeline({ currentLang }: ExperienceTimelinePr
                 <div className="flex flex-col md:flex-row md:items-center justify-between gap-2 mb-4">
                   <div>
                     <h3 className="text-xl font-bold text-white group-hover:text-indigo-400">
-                      {exp.role}
+                      {role}
                     </h3>
                     <p className="text-indigo-400 font-semibold text-sm">
                       {exp.company}
                     </p>
                   </div>
                   <span className="px-3 py-1 bg-white/5 border border-white/10 rounded-full text-xs font-semibold text-gray-400 max-w-max">
-                    {exp.period}
+                    {period}
                   </span>
                 </div>
 

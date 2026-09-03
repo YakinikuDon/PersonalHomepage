@@ -63,7 +63,7 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
           url: "/avatar_luffy.jpg",
           width: 800,
           height: 800,
-          alt: lang === "zh" ? "董一舟 头像" : "Dong Yizhou Profile Picture",
+          alt: lang === "zh" ? "董一舟 头像" : lang === "ja" ? "董一舟 プロフィール画像" : "Dong Yizhou Profile Picture",
         },
       ],
     },

@@ -573,7 +573,7 @@ function getInitialMockData(lang: Language): EvaluationResult {
         comment: isZh
           ? "候选人拥有 13 年以上的全球大型工程 (EPC) 与制造业品质与项目管理阅历，完美满足资深项目工程师/品质管理岗位的资历。"
           : isJa
-          ? "候補者は13年以上のグローバル超大型プラント建設（EPC）および製造業における品質・プロジェクト管理の豊富な経験を有し、シニアとしての資力を十分に満たしています。"
+          ? "候補者は13年以上のグローバル超大型プラント建設（EPC）および製造業における品質・プロジェクト管理の豊富な経験を有し、シニアとしての要件を十分に満たしています。"
           : "Offers 13+ years of global EPC project engineering and quality management experience, highly suited for senior/lead engineering roles."
       },
       industryMatch: {
@@ -581,7 +581,7 @@ function getInitialMockData(lang: Language): EvaluationResult {
         comment: isZh
           ? "在大型流体机械、全球油气化工 EPC 建设工程及数字化转型（DX）等重工业赛道积累深厚，行业匹配度极佳。"
           : isJa
-          ? "大型回転機械、グローバル石油ガス超大型EPCプラント、および現場DX推進の分野で深い実積があり、業界適合性が極めて高いです。"
+          ? "大型回転機械、グローバル石油ガス超大型EPCプラント、および現場DX推進の分野で深い実績があり、業界適合性が極めて高いです。"
           : "Robust domain knowledge in Heavy Machinery, Petrochemical, large-scale EPC Plant Engineering, and industrial digital transformation."
       },
       languageMatch: {
@@ -589,7 +589,7 @@ function getInitialMockData(lang: Language): EvaluationResult {
         comment: isZh
           ? "中文为母语，英语具备无障碍商务沟通及书写能力 (TOEIC 945)，日语商务流利 (JLPT N1 永住)，非常适合多国籍全球协作团队。"
           : isJa
-          ? "中国語（ネイティブ）、英語（ビジネスレベル・TOEIC 945）、日本語（ビジネス流暢・JLPT N1）、多国籍なグローバルチームに最適です。"
+          ? "中国語（ネイティブ）、英語（ビジネスレベル・TOEIC 945）、日本語（ビジネス流暢・JLPT N1 永住者）、多国籍なグローバルチームに最適です。"
           : "Native Chinese, fluent business English (TOEIC 945), and business fluent Japanese (JLPT N1 / Permanent Resident). Ready for global multi-national teamwork."
       },
       overallScore: {
@@ -597,7 +597,7 @@ function getInitialMockData(lang: Language): EvaluationResult {
         comment: isZh
           ? "综合匹配度达 95%。候选人在工程项目管理、国际标准品质控制（QC/QA）以及 IT/DX 落地方面的综合实力极具推荐价值！"
           : isJa
-          ? "総合適合率は95%です。プロジェクトエンジニアリング、品質管理（QC/QA）、および現場IT/DX推進における実力は強く推奨されます！"
+          ? "総合適合率は95%です。プロジェクトマネジメント、品質保証・管理（QA/QC）、および現場IT/DX推進における実績から、採用を強く推奨できます。"
           : "Overall match rate at 95%. Strongly recommended for senior Project Engineering, Quality Control (QC/QA), and Industrial IT/DX roles."
       }
     },
@@ -620,7 +620,7 @@ function getInitialMockData(lang: Language): EvaluationResult {
 #### ✅ 主なマッチング強み
 1. **日米欧国際規格の強力な資格群**：**PMP®**、**溶接管理技術者1級**、**JSNDI 非破壊試験技術者 Level 2 (PT, MT, RT)**をすべて保有。高度なプラント設計・製造・検査基準に完全合致。
 2. **圧倒的な IT・DX 実装スキル**：日揮QC部門にてDXロードマップの策定、生成AI(RAG)やRPA(Power Automate)導入を主導。自らプロトタイプを開発し約4,000工数を削減した実績。
-3. **13年以上の海外EPCプロジェクト実績**：荏原エリオット、日揮グローバルにて恒力石化エチレン、Tangguh UCC（インドネシア駐在）、Zulufなど巨大プロジェクトに従事。約30億円規模の索賠クレーム回復実績。
+3. **13年以上の海外EPCプロジェクト実績**：荏原エリオット、日揮グローバルにて恒力石化エチレン、Tangguh UCC（インドネシア駐在）、Zulufなど巨大プロジェクトに従事。約30億円規模のクレーム回収・損失補填実績。
 
 #### ⚠️ 追加の確認事項
 * **勤務地・海外駐在**：現在は神奈川県（永住者）在住であり、川崎/横浜/東京、またはグローバル海外プラント（中東・東南アジアなど）の駐在やハイブリッド契約に対応可能です。`

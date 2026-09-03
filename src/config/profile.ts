@@ -3,8 +3,16 @@
 
 export interface WorkExperience {
   company: string;
-  role: string;
-  period: string; // e.g., "2022.03 - Present"
+  role: string | {
+    zh: string;
+    en: string;
+    ja: string;
+  };
+  period: string | {
+    zh: string;
+    en: string;
+    ja: string;
+  };
   description: {
     zh: string;
     en: string;
@@ -18,7 +26,11 @@ export interface WorkExperience {
 }
 
 export interface Project {
-  name: string;
+  name: string | {
+    zh: string;
+    en: string;
+    ja: string;
+  };
   description: {
     zh: string;
     en: string;
@@ -243,14 +255,22 @@ export const PROFILE: CandidateProfile = {
     languages: {
       zh: "母语 (Native)",
       en: "流利 (Fluent, TOEIC 945, business fluent)",
-      ja: "流利 (Fluent, JLPT N1, native business standard)"
+      ja: "ビジネス流暢 (Fluent, JLPT N1 永住)"
     }
   },
   experiences: [
     {
       company: "JGC Global / 日揮グローバル",
-      role: "DX Promotion Key Person / 数字化转型推动人 (兼任)",
-      period: "2025.07 - Present",
+      role: {
+        zh: "DX Promotion Key Person / 数字化转型推动人 (兼任)",
+        en: "DX Promotion Key Person (Concurrent)",
+        ja: "DX Promotion Key Person / DX推進キーパーソン (兼任)"
+      },
+      period: {
+        zh: "2025.07 - 至今",
+        en: "2025.07 - Present",
+        ja: "2025.07 - 現在"
+      },
       description: {
         zh: "在质量控制（QC）部门主导全社数字化转型（DX）战略规划与落地，利用 AI 与自动化大幅提升传统工程的运营效能。",
         en: "Lead digital transformation (DX) strategies in the Quality Control (QC) department, integrating AI and automation into traditional engineering practices to cut overheads.",
@@ -276,8 +296,16 @@ export const PROFILE: CandidateProfile = {
     },
     {
       company: "JGC Global / 日揮グローバル",
-      role: "Information Management Leader / 信息管理负责人",
-      period: "2024.11 - Present",
+      role: {
+        zh: "Information Management Leader / 信息管理负责人",
+        en: "Information Management Leader",
+        ja: "Information Management Leader / インフォメーションマネジメントリーダー"
+      },
+      period: {
+        zh: "2024.11 - 至今",
+        en: "2024.11 - Present",
+        ja: "2024.11 - 現在"
+      },
       description: {
         zh: "服务于印尼 Tangguh UCC 大型数字双胞胎建设项目（TUCC），主导多国籍 10 人团队的跨国信息统筹与数据安全管理。",
         en: "Assigned as Information Management Leader for the Tangguh UCC Project (TUCC) in Indonesia, directing a multi-national team of 10 for digital twin implementations.",
@@ -303,7 +331,11 @@ export const PROFILE: CandidateProfile = {
     },
     {
       company: "JGC Global / 日揮グローバル",
-      role: "Project Engineer / 项目工程师",
+      role: {
+        zh: "Project Engineer / 项目工程师",
+        en: "Project Engineer",
+        ja: "Project Engineer / プロジェクトエンジニア"
+      },
       period: "2023.10 - 2024.10",
       description: {
         zh: "服务于沙特阿拉伯大型 GOSP（油气分离）总包 EPC 项目，作为核心后台项目工程师，主导重大合同变更索赔与模拟调测技术统筹。",
@@ -322,7 +354,7 @@ export const PROFILE: CandidateProfile = {
           "Orchestrated analyzer package expert panels, and developed customized RPA automations for batch handover documentations."
         ],
         ja: [
-          "Zulufプロジェクトにて、請求のタイミングを逃した変更や責任所掌が不明確な変更点を収集・分析。約30億円（損失の30%）の索賠に成功。",
+          "Zulufプロジェクトにて、請求のタイミングを逃した変更や責任所掌が不明確な変更点を収集・分析。約30億円（損失の30%）のクレーム回収・補填に成功。",
           "回転機械のダイナミックシミュレーション業務の調整、アラムコ（ARAMCO）向け変更指示（Change Order）の調整を担当。",
           "パッケージ計器コミュニティ会議の組織、およびハンドオーバーに向けた設計図書処理を自動化するRPAツールを独自開発。"
         ]
@@ -330,7 +362,11 @@ export const PROFILE: CandidateProfile = {
     },
     {
       company: "JGC Global / 日揮グローバル",
-      role: "Field QC Engineer / 现场质量控制工程师",
+      role: {
+        zh: "Field QC Engineer / 现场质量控制工程师",
+        en: "Field QC Engineer",
+        ja: "Field QC Engineer / フィールド品質管理エンジニア"
+      },
       period: "2023.03 - 2023.10",
       description: {
         zh: "驻沙特伊拉克巴士拉炼厂项目中国建造场地，全面统筹总重达 23,000 吨、总计 99 个大型复杂钢结构模块的焊接与质量控制。",
@@ -357,7 +393,11 @@ export const PROFILE: CandidateProfile = {
     },
     {
       company: "JGC Global / 日揮グローバル",
-      role: "Procurement QC Engineer / 采购质量控制工程师",
+      role: {
+        zh: "Procurement QC Engineer / 采购质量控制工程师",
+        en: "Procurement QC Engineer",
+        ja: "Procurement QC Engineer / 調達品質管理エンジニア"
+      },
       period: "2019.09 - 2023.02",
       description: {
         zh: "负责伊拉克、泰国等多个十亿美元级特大油气化工项目的关键设备采购质量控制（QC/QA）。",
@@ -384,7 +424,11 @@ export const PROFILE: CandidateProfile = {
     },
     {
       company: "Ebara Elliott / 荏原エリオット (Ebara Corp 出向)",
-      role: "Project Engineer & Application Engineer / 项目与应用工程师",
+      role: {
+        zh: "Project Engineer & Application Engineer / 项目与应用工程师",
+        en: "Project Engineer & Application Engineer",
+        ja: "Project Engineer & Application Engineer / プロジェクトエンジニア ＆ アプリケーションエンジニア"
+      },
       period: "2013.04 - 2019.08",
       description: {
         zh: "从事特大型化工流体机械压缩机与蒸汽轮机组的系统集成研发、联合设计与应用技术提案工作。",
@@ -412,7 +456,26 @@ export const PROFILE: CandidateProfile = {
   ],
   projects: [
     {
-      name: "XPTI 性格测试 (XP Test)",
+      name: {
+        zh: "QC Quest (工程品质管理冒险培训游戏)",
+        en: "QC Quest (JRPG Style QC Training Game)",
+        ja: "QC Quest (品質管理アドベンチャーゲーム)"
+      },
+      description: {
+        zh: "专为工程品质管理（QC/QA）新人量身定制的日系 JRPG 像素风格视觉小说（AVG）培训游戏。逼真模拟从技术评估到 MDRB 归档审查的完整工程业务冲突，搭载动态 SVG 交互剧情树、时空倒流机制与荣誉证书生成。",
+        en: "A retro JRPG-styled AVG training visual novel designed for EPC Project Quality Control (QC/QA) engineers. Simulates real-world engineering dilemmas from technical evaluation to MDRB archiving, featuring an interactive SVG branching plot tree, time-travel rewind, and shareable certificates.",
+        ja: "プラントエンジニアリングの品質管理（QC/QA）新入社員向けに設計されたJRPG風AVG研修ゲーム。技術評価からMDRB引渡図書審査までの実務シナリオを再現し、動的SVG分岐ツリー、タイムトラベル巻き戻し機能、修了証書生成を搭載。"
+      },
+      techStack: ["HTML5", "Vanilla JS", "Vanilla CSS", "SVG Plot Tree", "Canvas Effects", "i18n"],
+      demoUrl: "https://qc-game.vercel.app/",
+      githubUrl: "https://github.com/YakinikuDon/QCGame"
+    },
+    {
+      name: {
+        zh: "XPTI 性格测试 (XP Test)",
+        en: "XPTI Subconscious Personality Test",
+        ja: "XPTI 性格診断テスト (XP Test)"
+      },
       description: {
         zh: "一款极富趣味性与隐私安全的亲密关系潜意识性格测试系统。支持 16 种深层人格量化，搭载流畅的玻璃拟物化动效，使用 html2canvas 实现专属分享卡片的生成。在 B 站及社交平台极受欢迎，完全开源。",
         en: "An engaging, privacy-focused relationship subconscious personality test. Features 16-dimensional scoring, beautiful glassmorphic UI cards, and dynamic shareable result card generation using html2canvas. Highly popular on social media.",
@@ -423,7 +486,11 @@ export const PROFILE: CandidateProfile = {
       githubUrl: "https://github.com/YakinikuDon/xptest"
     },
     {
-      name: "带薪拉屎搭子 (ToiletBuddy)",
+      name: {
+        zh: "带薪拉屎搭子 (ToiletBuddy)",
+        en: "ToiletBuddy (Paid-to-Poop Tracker)",
+        ja: "ToiletBuddy (有給トイレットトラッカー)"
+      },
       description: {
         zh: "打工人专属的趣味打卡与带薪拉屎效率统筹平台。融合趣味数据分析与日常时间统计，以极简优雅的现代化卡片界面帮助用户追踪“带薪拉屎”带来的被动收益，让繁重的工作拥有一份快乐的日常。",
         en: "A fun, beautifully designed productivity tracker for office workers. Tracks 'paid-to-poop' duration, calculates passive earnings, and presents playful workspace calendars, wrapping everyday tasks in an enjoyable, state-of-the-art UI.",
@@ -434,7 +501,11 @@ export const PROFILE: CandidateProfile = {
       githubUrl: "https://github.com/YakinikuDon/ToiletBuddy"
     },
     {
-      name: "「今日ランチ何を食べよう」🎡みなとみらい編",
+      name: {
+        zh: "「今天午饭吃什么」🎡横滨港未来篇",
+        en: "“What to Eat for Lunch Today” 🎡 Minato Mirai",
+        ja: "「今日ランチ何を食べよう」🎡みなとみらい編"
+      },
       description: {
         zh: "专为日本横滨“港未来 (Minato Mirai)”商业区打造的午餐选择困难终结器。提供覆盖 Landmark Tower、Mark Is 等商圈的美食轮盘抽签，结合智能类型过滤、精美音效与人性化推荐设计。",
         en: "A localized lunch lottery/roulette utility application tailored for office workers and tourists in Minato Mirai, Yokohama. End decision fatigue with a dynamic lottery wheel covering landmarks, detailed filters, and playful UX audio.",

@@ -337,7 +337,7 @@ function getMockEvaluation(jd: string, lang: string) {
           : isJa
           ? isPureQcQa
             ? "総合判断：このポジションは従来のQC/QA専任業務であるため、候補者の現在のPM・DXキャリア方針と合致せず、推奨しません。"
-            : "総合評価：董一舟の強力なキャリア・強み（プロジェクトマネジメント・前沿DX/AI実装）に非常に合致しており、面接を強く推奨します！"
+            : "総合評価：董一舟の強力なキャリア・強み（プロジェクトマネジメント・先端DX/AI実装）に非常に合致しており、面接を強く推奨します！"
           : isPureQcQa
             ? "Overall: This is a traditional dedicated QC/QA role which conflicts with the candidate's career shift to Project Management and Industrial DX/AI. Not recommended."
             : "Overall, this position represents an outstanding fit for Dong Yizhou's background (Heavy Project Management / Industrial DX & Generative AI). Highly recommended!"
@@ -362,13 +362,13 @@ function getMockEvaluation(jd: string, lang: string) {
 > **💡 注意**：現在表示されているのは**サンプル診断書**です。上の入力欄に対象の求人票（JD）を貼り付けると、リアルタイムのAI分析が実行されます。
 
 #### ✅ 強みとキャリア適合度
-1. **重工業系PMとしての即戦力**：日揮グローバルおよび荏原エリオットにて13年以上の巨大EPCプロジェクト工程管理に従事。約30億円規模の索賠クレームをアラムコから回収した圧倒的プロジェクトマネジメント（PM）推進力。
-2. **DX・前沿AI実装の推進**：従来の単なる検査・品质保证（QC/QA）業務から**完全に脱却**し、Python/RPAおよび生成AI(RAG/PoC)を用いた「実務自动化」と「システム開発」を志向。ルール制限の少ない環境でのイノベーション創出に最適。
-3. **フレキシブルな条件交渉**：**神奈川県川崎市**の勤務またはリモートワークがベスト。残业少なめ・近距離・リモート環境であれば、最低許容ラインの **1100万 円**（手当・残業代等込み）でのオファーも合意可能です（通常希望：**1200万〜1500万円**）。
+1. **重工業系PMとしての即戦力**：日揮グローバルおよび荏原エリオットにて13年以上の巨大EPCプロジェクト工程管理に従事。約30億円規模のクレームをアラムコから回収した圧倒的プロジェクトマネジメント（PM）推進力。
+2. **DX・先端AI実装の推進**：従来の単なる検査・品質保証（QC/QA）業務から**完全に脱却**し、Python/RPAおよび生成AI(RAG/PoC)を用いた「実務自動化」と「システム開発」を志向。ルール制限の少ない環境でのイノベーション創出に最適。
+3. **フレキシブルな条件交渉**：**神奈川県川崎市**の勤務またはリモートワークがベスト。残業少なめ・近距離・リモート環境であれば、最低許容ラインの **1100万 円**（手当・残業代等込み）でのオファーも合意可能です（通常希望：**1200万〜1500万円**）。
 
 #### ⚠️ 懸念点・見送り基準
 * **純粋な品質管理職務**：検査官、溶接仕様審査、サプライヤー監査など、従来の品質管理専任ロール（QC/QA）はお見送り対象となります。
-* **国内現場出張の制限**：海外プラント現地への出張（手当付き、年間50%まで）は歓迎しますが、手当の薄い日本国内建設现场への頻繁な長期出張は極力回避したい意向があります。`
+* **国内現場出張の制限**：海外プラント現地への出張（手当付き、年間50%まで）は歓迎しますが、手当の薄い日本国内建設現場への頻繁な長期出張は極力回避したい意向があります。`
       : `### 🌟 Dong Yizhou's Expert Evaluation (Sample Showcase)
 
 > **💡 Note**: This is a **sample evaluation report**. Paste a target Job Description in the input field above to trigger custom real-time AI analysis.
